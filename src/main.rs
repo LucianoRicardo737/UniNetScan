@@ -16,8 +16,7 @@ let my_local_ip:IpAddr = local_ip().unwrap();
 let separate_ip:String =  my_local_ip.to_string();
 let strings: Vec<&str> = separate_ip.split(".").collect(); 
 
-// let ip_rage_start:&str = strings[0] + "." + strings[1] + "." + strings[2] + ".";
-// println!("This is my local IP address: {:?}", strings);
+
 let first_number_ip:&str = strings[0];
 let second_number_ip:&str = strings[1];
 let third_number_ip:&str = strings[2];
