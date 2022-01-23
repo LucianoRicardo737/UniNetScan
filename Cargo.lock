@@ -22,7 +22,6 @@ name = "api"
 version = "0.1.0"
 dependencies = [
  "local-ip-address",
- "ping",
  "pinger",
  "rand",
 ]
@@ -132,17 +131,6 @@ checksum = "198e392be7e882f0c2836f425e430f81d9a0e99651e4646311347417cddbfd43"
 dependencies = [
  "log",
  "winapi",
-]
-
-[[package]]
-name = "ping"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "69044d1c00894fc1f43d9485aadb6ab6e68df90608fa52cf1074cda6420c6b76"
-dependencies = [
- "rand",
- "socket2",
- "thiserror",
 ]
 
 [[package]]
